@@ -1,0 +1,27 @@
+.aboutus{
+
+position: relative;
+top: 6em;
+}
+h1,.p{
+    color: black;
+    padding: 1em;
+    text-wrap: wrap;
+    text-align: center;
+}
+h1,h2{
+    letter-spacing: 1px;
+    text-align: center;
+}
+.expert,.choose,.mission{
+    position: relative;
+    top: 7em;
+    padding: 1em;
+}
+
+span{
+    font-size: 18px;
+}
+body{
+    background-color: rgba(241, 184, 119, 0.904);
+}

@@ -1,0 +1,58 @@
+.head{
+    padding: 1em;
+    border: 3px solid black;
+    position: relative;
+    top: 5em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.footer{
+    position: relative;
+    top: 6em;
+}
+div .sec-head{
+    position: relative;
+    top: 4em;
+    padding: 1em 2em;
+}
+
+
+/* Style the item grid */
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    top: 6em;
+    border: 3px solid black;
+}
+
+/* Style individual items */
+.item {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+   
+   
+   
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #666;
+}
+    

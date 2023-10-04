@@ -1,0 +1,513 @@
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  
+   button,ul,li a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+    
+   }
+   h1,p,h3{
+    color: seashell;
+   }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+        font-family:"Montserrat", sans-serif;
+    }
+    /*  styles for navbar start */
+    nav ul{
+        list-style: none;  
+    }
+   li a{
+    text-decoration: none;
+   }
+    header{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 10px 10%;
+        background-color: rgba(143, 50, 50, 0.8)  ;
+        width: 100%;
+        height: 60px;
+    }
+    .navbar li{
+        display: inline-block;
+        padding: 10px 20px;   
+    }
+    .navbar li a{
+        transform:all 0.3s ease 0s;
+    }
+    .navbar li a:hover{
+        color: rgb(196, 93, 93);
+    }
+    .bar{
+        position: fixed;
+        margin-top: 0px;
+        z-index: 1;
+        width: 100%;
+      }
+    .logo{
+        cursor: pointer;
+        width: 80px;
+        background-position: center;
+        background-size: contain;
+        align-items: center;
+        margin: -5px;
+       
+    }
+     
+ /*    styles for navbar end        */
+
+ 
+   /*     styles for Buttons             */
+    button{
+        padding: 9px 25px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        transform:all 0.3s ease 0s;
+        background-color: rgba(202, 99, 99,1);
+        margin-top: auto;
+    }
+    button:hover{
+        background-color: rgba(202, 108, 108,0.8);
+    }
+    .hero button{
+        margin:30px ;
+      }
+
+  /*     styles for Buttons  END            */
+main{
+    background-image: url("cctv1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+    
+  /*     styles  for hero page    #####################     */
+.heropage{
+    display: block;
+    position: relative;
+    background-color:transparent;
+    padding: 80px ;
+   
+}
+    
+
+.heropage .heading h1{
+    position: relative;
+    top: 1,2em;
+    color: white;
+    font-weight: 600;
+    font-family:"Montserrat", sans-serif;
+    font-size: 50px;
+    word-spacing: 1;
+    line-height: 60px;
+}
+.heading h3{
+    position: relative;
+    top:0.5em ;
+    font-family:"Montserrat", sans-serif;
+    font-size: 20px;
+   color: white;
+    line-height: 30px;
+    
+}
+.heading button{
+    position: relative;
+    top: 1.5em;
+}
+.heading #icon{
+    position: relative;
+    top: 1.6em;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: flex-start;
+  
+    padding: 30px;
+    position: relative;
+}
+.bottom1{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    
+
+}
+.bottom1 p{
+    text-align: center;
+    text-wrap: wrap;
+}
+
+
+.bottom2{
+    
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    position: relative;
+   
+    left: 50px;
+    
+
+}
+.bottom2 p{
+    text-align: center;
+    text-wrap: wrap;
+}
+/*  hero page ends HERE      #######################      */
+
+/*  About Us page starts HERE      #######################      */
+.about-us{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+.about-heading h2{
+    text-align: center;
+    color: white;
+   
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 35px;
+    padding-top: .5em;
+}
+.about-img{
+    background-image: url(cannon1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 30%;
+    height: 400px;
+}
+.about-para1 p,.about-para1 h4{
+    color: white;
+    text-transform: uppercase;
+}
+/*.about-para1 h4::before{
+    content : url(one.png);
+    left: 0;
+    box-sizing: border-box;
+    size: 10px;
+    padding-right: 30px; */
+
+.about-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.about-para2 p,.about-para2 h4{
+    color:white;
+    text-transform: uppercase;
+   
+}
+
+.about-para3 p,.about-para3 h4{
+    color: white;
+    text-transform: uppercase;
+    
+    
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-us h2{
+   color: black;
+}
+.about-para1 p,h4,.about-para2 p,h4,.about-para3 p,h4{
+    color: black;
+}
+
+/*  About Us page   ends HERE      #######################      */
+
+/*  Product page   Starts HERE      #######################      */
+.products{
+    background-color: darkgrey;
+    padding:40px 20px 70px 0;
+    
+}
+.prod-heading{
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 4px;
+}
+.prod-text{
+    color: black;
+
+}
+.product-para{
+   
+    color: black;
+   
+    text-wrap: wrap;
+    text-align: left;
+    padding: 2em;
+    letter-spacing: 1px;
+}
+.prod-container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.prod1{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 25%;
+    padding: 7em 3rem ;
+    color: azure;
+    background-image: url(back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 2em;
+   
+}
+.prod2{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 25%;
+    padding: 7em 3.5rem ;
+    color: azure;
+    background-image: url(cctv2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.prod3{
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 25%;
+    padding: 7em 4rem ;
+    color: rgb(253, 253, 253);
+    background-image: url(dozer.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 2em;
+}
+/* ################## IT SECTION  STARTS HERE $#@################*/
+.it-container{
+    display: flex;
+    justify-content: space-around;
+   
+    padding: 6em;
+    position: relative;
+}
+.it-text{
+   
+    padding: 3em;
+    position: relative;
+   
+}
+.it-heading{
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 0.5em;
+    font-size: 30px;
+}
+.it-para{
+    letter-spacing: 1px;
+    color: black;
+  
+}
+.it-img{
+   
+    padding: 8em;
+    position: relative;
+    margin:5px;
+   left: 10px;
+   border: 2px solid rgba(85, 48, 107, 0.911) ;
+}
+
+/* ################## IT SECTION  ENDS HERE $#@################*/
+/* ################## Customer SUPPORT SECTION  STARTS HERE $#@################*/
+.supp-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    padding: 6em;
+    position: relative;
+}
+.supp-text{
+   
+    padding: 3em;
+    position: relative;
+   
+}
+.supp-heading{
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 0.5em;
+    font-size: 30px;
+}
+.supp-para{
+    letter-spacing: 1px;
+    color: black;
+    text-wrap: wrap;
+  
+}
+.supp-img{
+   
+    padding: 8em;
+    position: relative;
+    margin:5px;
+   left: 10px;
+   border: 2px solid rgba(85, 48, 107, 0.911) ;
+}
+
+/* ################## Customer SUPPORT SECTION  ENDS HERE $#@################*/
+
+/* ################## PARTNERS SECTION  STARTS HERE $#@################*/
+.partner{
+    padding: 2em;
+  
+
+}
+.part-heading{
+    letter-spacing: 1px;
+    border: 3px solid black;
+    text-align: center;
+}
+.part-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5em;
+    flex-wrap: wrap;
+    width: auto;
+}
+.part{
+   
+    padding: 7em;
+    margin-top: 3px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p1{
+    background-image: url(Anti-Narcotics_Force_Logo.png);
+    size: auto;
+}
+.p2{
+    background-image: url(download.png);
+    size: auto;
+}
+.p3{
+    background-image: url(Bestway.jpg);
+    size: auto;
+}
+.p4{
+    background-image: url(nadra.png);
+    size: auto;
+}
+.p5{
+    background-image: url(undp-logo.png);
+    size: auto;
+    
+}
+.p6{
+    background-image: url(usa.png);
+    size: auto;
+}
+.p7{
+    background-image: url(SNGPL_logo.svg.png);
+    size: auto;
+}
+.p8{
+    background-image: url(punjab.png);
+    size: auto;
+}
+.p9{
+    background-image: url(sindh.png);
+    size: auto;
+}
+.p10{
+    background-image: url(paf.png);
+    size: auto;
+}
+
+/* ################## PARTNERS  SECTION  ENDS HERE $#@################*/
+body{
+    overflow-x: hidden;
+}
+
+/* ################## location SECTION  starts HERE $#@################*/
+.footer{
+    background-color: darkgrey;
+}
+.location{
+   
+    padding: 1em;
+}
+.foot-heading{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding: 1em;
+
+}
+.address1{
+   
+    padding: 1em;
+    
+
+}
+.address2{
+    
+    
+    padding: 1em;
+    
+}
+.loc-container{
+
+padding: 1em;
+display: flex;
+justify-content: space-between;
+}
+div .face{
+    padding: 2em;
+    
+    background-image: url(f.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: normal;
+    margin: 3px 0;
+   
+}
+div .insta{
+    padding: 2em;
+    
+    background-image: url(in.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3px 0;
+}
+div .twit{
+    padding: 2em;
+   
+    background-image: url(twitter.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3px 0;
+}
+.social-med{
+    padding: 0 3em;
+}
+
+/* ################## location SECTION  ENDS  HERE $#@################*/
+
+ 

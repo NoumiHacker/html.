@@ -1,0 +1,143 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {/* Reset some default styles */
+    body, h1, h2, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Style the header */
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+   
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff6600;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ff6600;
+}
+
+
+/* Style the item grid */
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Style individual items */
+.item {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #666;
+}
+.box{
+background-color: antiquewhite;
+width: 100%;
+margin-bottom: 0;
+position: relative;
+}
+.b1{
+    width: 50%;
+    background-color: #ff6600;
+    padding: 20px;
+    position: relative;
+    left: 45%;
+
+}
+.b2{
+    width: 50%;
+    background-color: #4853f1;
+    padding: 20px;
+    position: relative;
+    right: 40px;
+    top: px;
+
+}
+.b3{
+    width: 50%;
+    background-color: #f02fb0;
+    padding: 20px;
+
+}
